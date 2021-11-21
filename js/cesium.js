@@ -7,7 +7,7 @@ Cesium.Ion.defaultAccessToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOi
 			navigationHelpButton: false,
 			sceneModePicker: false,
 			homeButton: false,
-			geocoder: true,
+			geocoder: false,
 			selectionIndicator: false,
 			fullscreenButton: false,
 			imageryProvider: new Cesium.UrlTemplateImageryProvider({
@@ -20,7 +20,5 @@ Cesium.Ion.defaultAccessToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOi
 		});
 
 		markerList.load(viewer);
-
-        document.getElementsByClassName("cesium-geocoder-input")[0].placeholder = "Busca un lugar...";
 
 

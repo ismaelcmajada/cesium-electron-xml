@@ -6,20 +6,19 @@ html, body, #globo {
     font-family: 'Roboto', sans-serif;
 }
 
-#marker_form {
+#search_nav {
     background-color: white;
     border-radius: 30px;
     color: black;
-    margin: auto 0;
+    margin: 0 auto;
     padding: 10px;
     position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 5px;
-    width: 200px;
-    height: 400px;
+    bottom: 5px;
+    left: 0;
+    right: 0px;
+    width: 350px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     z-index: 99;
@@ -77,20 +76,10 @@ button {
     margin: 0 10px;
 }
 
-#marker_form input, textarea {
-	margin: 10px 0px;
-	border: 1px solid black;
-	padding: 10px;
-	border-radius: 30px;
-	width: 90%;
-	font-size: 18px;
-}
+
 
 button:hover, input[type=button]:hover {
     background-color: grey;
 }
 
-#borrar, #modificar {
-    display: none;
-}
 
